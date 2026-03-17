@@ -10,6 +10,5 @@
             </if>
         </where>
         order by create_time desc
-#         limit #{offset}, #{pageSize}
     </select>
 </mapper>
